@@ -3,8 +3,8 @@
 @media all and (max-width: 800px) {
     /*img {width:100px;}*/
     .header {flex-direction: column;}
-    .description {flex-direction: column;
-                text-align: center;}
+    /*.description {flex-direction: column;
+                text-align: center;}*/
     
 
 
