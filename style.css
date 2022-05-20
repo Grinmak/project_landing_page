@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Righteous&family=Wallpoet&display=swap');
 
+@media all and (max-width: 600px) {
+    /*img {width:100px;}*/
+    .header {flex-direction: column;}
+    .description {flex-direction: column;
+                text-align: center;
+            margin:auto;}
+    .right:nth-of-type {order: 1;}
+
+
+    }
 body{
     height: 100vh;
     display: flex;
@@ -141,7 +151,7 @@ a.header_link:hover {
 .bottom{
     background: #3882F6;
     align-items: center;
-    padding: 25px 50px;
+    padding: 20px;
     margin: 35px auto;
     border-radius: 15px;
     color: white;
